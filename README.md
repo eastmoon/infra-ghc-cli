@@ -40,5 +40,5 @@
 + 進入 [Github.com](https://github.com/settings/personal-access-tokens) 設定個人存取權杖
 + 選擇 Fine-grained personal
 + 點擊 Generate new token
-		- 添加權限 ( Add permissions ) Copilot Requests
-		- 此權限僅能使用於用戶帳號為 Owner 的專案庫，因此，僅選擇 Public repositories 能設定
+	- 添加權限 ( Add permissions ) Copilot Requests
+	- 此權限僅能使用於用戶帳號為 Owner 的專案庫，因此，僅選擇 Public repositories 能設定
