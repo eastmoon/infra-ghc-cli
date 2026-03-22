@@ -8,9 +8,9 @@
 
 + 啟動開發環境 ```do.bat dev```
 + 執行單句提示 ```do.bat prompt [ask question]```
-		- 例如：```do.bat prompt Say hello and tell me what you can help with```
+	- 例如：```do.bat prompt Say hello and tell me what you can help with```
 + 執行計畫檔案 ```do.bat plan [markdown file in 'plan' folder]```
-		- 例如：```do.bat plan demo.md```，demo.md 檔案在 [plan](./plan) 目錄中
+	- 例如：```do.bat plan demo.md```，demo.md 檔案在 [plan](./plan) 目錄中
 
 執行上述指令需於 [devops-cli-framework](https://github.com/eastmoon/devops-cli-framework) 專案執行 ```do pack```，封裝必要映像檔。
 
