@@ -30,7 +30,7 @@
 對此，採用 [Authenticating with GitHub CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/authenticate-copilot-cli#authenticating-with-github-cli) 方式：
 
 1. 帳號申請個人存取權杖 ( Personal Access Token、PAT )
-2. 將權杖複製至本專案檔案 ```/conf/devops/keys/GITHUB_API_KEY```
+2. 將權杖複製至本專案檔案 ```./conf/devops/keys/GITHUB_API_KEY```
 3. 執行 ```do.bat dev``` 啟動環境，啟動程序會檢查 GITHUB_API_KEY 檔案並設定相應環境變數給容器
 4. 進入容器後，執行 ```gh auth status``` 檢驗 Github CLI 完成登入
 5. 進入容器後，執行 ```copilot``` 進入互動介面，並執行 ```/user``` 顯示帳戶名稱
